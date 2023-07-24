@@ -1,0 +1,250 @@
+
+[
+    {
+      "collegeId": "1",
+      "collegeName": "ABC University",
+      "collegeImage": "https://www.slu.edu/news/img/campus-beauty-shot-two-clock-min.jpg",
+      "admissionDates": {
+        "fall": "September 1st - December 1st",
+        "spring": "January 1st - April 1st",
+        "summer": "May 1st - June 1st"
+      },
+      "researchHistory": "Established in 19XX, ABC University has a rich history of groundbreaking research.",
+      "sports": {
+        "categories": ["Basketball", "Soccer", "Swimming", "Tennis", "Volleyball"]
+      },
+      "admissionProcess": "Prospective students can apply online through the university website or submit applications via mail.",
+      "events": {
+        "orientation": "Orientation Day for new students is held in August.",
+        "homecoming": "The annual Homecoming event takes place every October.",
+        "jobFair": "A Job Fair is organized in April for graduating students."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Quantum Computing Advancements",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.2478P/abstract",
+          "researchDetails": "This research project focuses on exploring the potential applications of quantum computing in solving complex problems more efficiently."
+        },
+        {
+          "researchName": "Sustainable Energy Solutions",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.2478P/abstract",
+          "researchDetails": "The sustainable energy solutions research at ABC University aims to develop renewable energy sources and promote environmentally friendly technologies."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "review": "ABC University provided me with an excellent learning experience. I highly recommend it to others.",
+          "rating": 4.8
+        }
+      ],
+      "rating": 4.7
+    },
+    {
+      "collegeId": "2",
+      "collegeName": "XYZ College",
+      "collegeImage": "https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1659635029/BestColleges.com/John-Hopkins-Campus-Research-University_35849e0bda/John-Hopkins-Campus-Research-University_35849e0bda.jpg",
+      "admissionDates": {
+        "fall": "August 15th - November 15th",
+        "spring": "December 1st - March 1st",
+        "summer": "April 1st - June 15th"
+      },
+      "researchHistory": "XYZ College has been at the forefront of innovative research since its inception in 2000.",
+      "sports": {
+        "categories": ["Baseball", "Football", "Track & Field", "Golf", "Cheerleading"]
+      },
+      "admissionProcess": "Apply for admission online and submit required documents by the deadline.",
+      "events": {
+        "openHouse": "Open House events are held twice a year in March and October.",
+        "musicFestival": "The annual Music Festival showcases the college's talented musicians.",
+        "careerWorkshop": "Career Workshops are organized to assist students in job preparation."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Artificial Intelligence Applications",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023ApJ...949...86A/abstract",
+          "researchDetails": "The AI Applications research at XYZ College involves developing AI algorithms for various real-world applications such as natural language processing and computer vision."
+        },
+        {
+          "researchName": "Biomedical Breakthroughs",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023ApJ...949...86A/abstract",
+          "researchDetails": "This research aims to make significant advancements in the field of biomedical sciences, including the development of new medical treatments and technologies."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "Mike Johnson",
+          "review": "XYZ College has a welcoming campus atmosphere. I had a wonderful college experience.",
+          "rating": 4.6
+        }
+       
+      ],
+      "rating": 4.5
+    }
+   ,
+    {
+      "collegeId": "3",
+      "collegeName": "PQR Institute",
+      "collegeImage": "https://cdn.britannica.com/03/117103-050-F4C2FC83/view-University-of-Oxford-England-Oxfordshire.jpg",
+      "admissionDates": {
+        "fall": "July 1st - October 15th",
+        "spring": "November 1st - February 15th",
+        "summer": "March 1st - May 15th"
+      },
+      "researchHistory": "PQR Institute has a long-standing tradition of impactful research and academic excellence.",
+      "sports": {
+        "categories": ["Cricket", "Badminton", "Hockey", "Table Tennis", "Rugby"]
+      },
+      "admissionProcess": "Prospective students can apply online or by visiting the campus admission office.",
+      "events": {
+        "freshersParty": "A Freshers Party is held for new students to welcome them to the college community.",
+        "culturalFest": "The annual Cultural Fest celebrates the diversity and talents of students.",
+        "internshipFair": "An Internship Fair is organized to connect students with industry opportunities."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Environmental Sustainability Initiatives",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522..863L/abstract",
+          "researchDetails": "This research focuses on innovative ways to promote environmental sustainability and tackle pressing environmental challenges."
+        },
+        {
+          "researchName": "Data Science Innovations",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522..863L/abstract",
+          "researchDetails": "The Data Science Innovations research at PQR Institute involves developing data-driven solutions for various domains such as healthcare and finance."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "Sarah Lee",
+          "review": "PQR Institute offers a supportive learning environment. I had an enriching experience here.",
+          "rating": 4.9
+        }
+      ],
+      "rating": 4.6
+    },
+
+    {
+      "collegeId": "4",
+      "collegeName": "LMN College",
+      "collegeImage": "https://www.siouxfalls.business/wp-content/uploads/2022/09/HERO-Home-Edit-003-010.jpg",
+      "admissionDates": {
+        "fall": "August 10th - November 30th",
+        "spring": "December 10th - March 30th",
+        "summer": "April 10th - July 15th"
+      },
+      "researchHistory": "LMN College is known for its research contributions in various scientific and social fields.",
+      "sports": {
+        "categories": ["Athletics", "Chess", "Fencing", "Gymnastics", "Wrestling"]
+      },
+      "admissionProcess": "Complete the online application form and attend the college entrance exam.",
+      "events": {
+        "scienceFair": "An annual Science Fair is held to showcase innovative projects by students and faculty.",
+        "cultureWeek": "Culture Week celebrates the diverse cultural heritage of students through various events and performances.",
+        "alumniMeet": "An Alumni Meet is organized to connect graduates and provide networking opportunities."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Advancements in Nanotechnology",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.1752B",
+          "researchDetails": "The Nanotechnology research at LMN College focuses on advancements in materials and applications at the nanoscale."
+        },
+        {
+          "researchName": "Social Impact Studies",
+          "researchLink": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.1752B",
+          "researchDetails": "This research involves studying the social impact of various policies and programs to improve the quality of life for communities."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "David Johnson",
+          "review": "LMN College provided me with a platform to excel academically and personally.",
+          "rating": 4.7
+        }
+      
+      ],
+      "rating": 4.5
+    },
+    {
+      "collegeId": "5",
+      "collegeName": "EFG College",
+      "collegeImage": "https://www.harringtonhousing.com/uploads/0003/3066/2023/01/11/what-makes-the-university-of-michigan-unique.jpg",
+      "admissionDates": {
+        "fall": "October 1st - December 15th",
+        "spring": "January 15th - March 30th",
+        "summer": "April 15th - July 1st"
+      },
+      "researchHistory": "EFG University has a strong research tradition, contributing to advancements in various academic disciplines.",
+      "sports": {
+        "categories": ["Cricket", "Football", "Swimming", "Tennis", "Golf"]
+      },
+      "admissionProcess": "Submit the online application form and attend the admission interview.",
+      "events": {
+        "techFest": "The annual Tech Fest showcases innovative technological projects and research by students.",
+        "artExhibition": "An Art Exhibition is organized to display the creative works of students in various artistic disciplines.",
+        "leadershipSeminar": "Leadership Seminars are conducted to empower students with leadership skills."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Advancements in Robotics",
+          "researchLink": "https://epasr.inased.org/makale/838",
+          "researchDetails": "The Robotics research at EFG University aims to develop advanced robotics systems for various industrial and healthcare applications."
+        },
+        {
+          "researchName": "Educational Policy Analysis",
+          "researchLink": "https://epasr.inased.org/makale/838",
+          "researchDetails": "This research analyzes educational policies and their impact on students and institutions, suggesting improvements for better outcomes."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "Emma Lee",
+          "review": "EFG University provided me with a transformative learning experience. The faculty is exceptional.",
+          "rating": 4.9
+        }
+       
+      ],
+      "rating": 4.7
+    },
+    {
+      "collegeId": "6",
+      "collegeName": "STU College",
+      "collegeImage": "https://www.stu.edu/wp-content/uploads/sites/7/2021/05/1-STU-Final-2020-10-09-2-scaled.jpg",
+      "admissionDates": {
+        "fall": "July 15th - October 30th",
+        "spring": "November 15th - February 28th",
+        "summer": "March 15th - June 30th"
+      },
+      "researchHistory": "STU College is known for its innovative research initiatives that address societal challenges.",
+      "sports": {
+        "categories": ["Basketball", "Volleyball", "Badminton", "Archery", "Athletics"]
+      },
+      "admissionProcess": "Fill out the application form online and complete the admission assessment.",
+      "events": {
+        "scienceSymposium": "A Science Symposium brings together researchers and students to present their scientific discoveries.",
+        "culturalShowcase": "The Cultural Showcase highlights the diverse cultural heritage of students through music, dance, and art performances.",
+        "careerFair": "A Career Fair connects students with potential employers and internship opportunities."
+      },
+      "researchWorks": [
+        {
+          "researchName": "Climate Change Mitigation Strategies",
+          "researchLink": "https://iopscience.iop.org/article/10.1088/1757-899X/262/1/012117/pdf",
+          "researchDetails": "This research aims to identify and propose effective strategies to mitigate the impacts of climate change on vulnerable communities."
+        },
+        {
+          "researchName": "Urban Planning Innovations",
+          "researchLink": "https://iopscience.iop.org/article/10.1088/1757-899X/262/1/012117/pdf",
+          "researchDetails": "The Urban Planning Innovations research explores sustainable and resilient urban development practices for future cities."
+        }
+      ],
+      "reviews": [
+        {
+          "reviewerName": "Olivia Johnson",
+          "review": "STU College provided me with an intellectually stimulating environment. I cherish my time here.",
+          "rating": 4.8
+        }
+      ],
+      "rating": 4.6
+    }
+
+  ]
+
