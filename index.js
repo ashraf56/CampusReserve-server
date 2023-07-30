@@ -90,6 +90,7 @@ let option={upsert : true}
 let updateDoc={
   $set :{
   name: usersInfo.name,
+  photoURL: usersInfo.photoURL,
   adress: usersInfo.adress,
   institute: usersInfo.institute
 },
