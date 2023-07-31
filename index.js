@@ -27,6 +27,7 @@ async function run() {
     await client.connect();
     const AllCollege = client.db("Campus-Reserve").collection("AllCollege");
     const AllUser = client.db("Campus-Reserve").collection("AllUser");
+    const MYcollege = client.db("Campus-Reserve").collection("Mycollege");
 
 
     app.get('/college',async(req,res)=>{
@@ -49,6 +50,17 @@ let result = await AllCollege.find(query).toArray()
       res.send(result)
       
           })
+
+
+app.post('/mycollege' ,async(req,res)=>{
+
+  let user=req.body;
+
+  const result = await MYcollege.insertOne(user);
+  res.send(result);
+
+})
+
       
           app.post('/alluser',async(req,res)=>{
             let user=req.body;
