@@ -61,6 +61,22 @@ app.post('/mycollege' ,async(req,res)=>{
 
 })
 
+app.get('/mycollege',async(req,res)=>{
+
+const result=await MYcollege.find().toArray()
+res.send(result)
+
+})
+
+app.get('/mycollege/:email',async(req,res)=>{
+  let email= req.params.email 
+
+ 
+  const result=await MYcollege.find({userMail:email}).toArray()
+  res.send(result)
+  
+  })
+
       
           app.post('/alluser',async(req,res)=>{
             let user=req.body;
