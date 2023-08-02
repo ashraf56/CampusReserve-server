@@ -77,7 +77,24 @@ app.get('/mycollege/:email',async(req,res)=>{
   
   })
 
-      
+     
+  app.put('/mycollege/:email', async(req,res)=>{
+
+ let users= req.params.email
+let usersInfo=req.body
+let filter={
+  userMail : users
+}
+let updateDoc={
+  $set :{
+  review: usersInfo.review,
+},
+}
+let option= {upsert: true}
+let result= await MYcollege.updateOne(filter,updateDoc,option);
+res.send(result)
+
+  })
           app.post('/alluser',async(req,res)=>{
             let user=req.body;
             let query={email: user.email}
